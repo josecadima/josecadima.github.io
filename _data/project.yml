@@ -1,0 +1,18 @@
+- name: People microservice
+  technology: ASP.net core, C#, SQL Server
+  documentation: /projectpeople.html
+  description: Microservice that is used to manage people information
+  demo: projectpeople.gif
+  repository: github repo
+- name: Knowledge microservice
+  technology: node.js, ReactJS, mongoDB
+  documentation: /projectknowledge.html
+  description: Microservice that is used to manage the knowledge information
+  demo: projecttool.gif
+  repository: github repo
+- name: Tool microservice
+  technology: node.js, ReactJS, mongoDB
+  documentation: /projecttool.html
+  description: Microservice that is used to manage the supported built-in tools
+  demo: projecttool.gif
+  repository: github repo
