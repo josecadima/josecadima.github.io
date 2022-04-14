@@ -1,0 +1,16 @@
+
+.project-card {
+    display: block;
+    background-color: $grey-color-light;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    margin-bottom: $spacing-unit;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.project-links {
+    a {
+        margin-right: 10px;
+    }
+}

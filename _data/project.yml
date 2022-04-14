@@ -1,17 +1,23 @@
 - name: People microservice
-  technology: ASP.net core, C#, SQL Server
+  be-technology: .NET 6.0, C#, ASP.NET Core Web API, Entity Framework
+  fe-technology: ASP.NET MVC
+  other-technology: SQL Server, Docker, OpenAPI (Swagger), Visual Studio, Postman
   documentation: /projectpeople.html
-  description: Microservice that is used to manage people information
+  description: The people microservice is in charge of managing the personal information like the contact info, addresses, birthday, avatar, etc.
   demo: projectpeople.gif
   repository: github repo
 - name: Knowledge microservice
-  technology: node.js, ReactJS, mongoDB
+  be-technology: node.js, ReactJS, mongoDB
+  fe-technology: 
+  other-technology:
   documentation: /projectknowledge.html
   description: Microservice that is used to manage the knowledge information
   demo: projecttool.gif
   repository: github repo
 - name: Tool microservice
-  technology: node.js, ReactJS, mongoDB
+  be-technology: node.js, ReactJS, mongoDB
+  fe-technology: 
+  other-technology:
   documentation: /projecttool.html
   description: Microservice that is used to manage the supported built-in tools
   demo: projecttool.gif
