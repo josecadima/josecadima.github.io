@@ -4,6 +4,16 @@ layout: default
 
 <article class="home-content">
 
+    <div class="profile-social">
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+        </a>
+
+        <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+        </a>
+    </div>
+
     <img src="{{ page.profile_picture.src | absolute_url }}"
          alt="{{ page.profile_picture.alt }}"
          class="profile-picture" />
