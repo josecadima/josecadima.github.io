@@ -5,7 +5,7 @@
   documentation: /projectpeople.html
   description: The people microservice is in charge of managing the personal information like the contact info, addresses, birthday, avatar, etc.
   demo: projectpeople.gif
-  repository: github repo
+  repository: speedkt-people-api
 - name: Knowledge microservice
   be-technology: node.js, ReactJS, mongoDB
   fe-technology: 
@@ -13,7 +13,7 @@
   documentation: /projectknowledge.html
   description: Microservice that is used to manage the knowledge information
   demo: projecttool.gif
-  repository: github repo
+  repository: speedkt-knowledge-api
 - name: Tool microservice
   be-technology: node.js, ReactJS, mongoDB
   fe-technology: 
@@ -21,4 +21,4 @@
   documentation: /projecttool.html
   description: Microservice that is used to manage the supported built-in tools
   demo: projecttool.gif
-  repository: github repo
+  repository: speedkt-tool-api
