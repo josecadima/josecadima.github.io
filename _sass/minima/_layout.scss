@@ -11,17 +11,23 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
+    @include relative-font-size(2.025);
+    color: $grey-color-darkest;
+    font-weight: 300;
+    line-height: $base-line-height * $base-font-size * 2.25;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    cursor: pointer;
 
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+    &,
+    &:visited {
+        color: $grey-color-darkest;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .site-nav {
@@ -170,7 +176,23 @@
   }
 }
 
+.profile-picture {
+    float: right;
+    width: 250px;
+    border: #ccc 1px solid;
+    margin-left: 10px;
 
+    @include media-query($on-palm) {
+        float: none;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+}
+
+.home-content {
+    display: block;
+    padding-bottom: 10px;
+}
 
 /**
  * Page content
