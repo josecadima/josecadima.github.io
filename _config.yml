@@ -30,6 +30,9 @@ github_username:  josecadima
 
 # Build settings
 theme: minima
+markdown: kramdown
+sass:
+    style: compressed
 plugins:
   - jekyll-feed
 
