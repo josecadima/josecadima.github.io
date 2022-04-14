@@ -18,11 +18,16 @@ permalink: /project/
 
         <div class="project-links">
             <a href="{{ item.demo }}"> Demo </a>
+            
             <a href="https://github.com/{{ site.github_username }}/{{ item.repository }}"> 
                 <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
                 <span>Repository</span>
             </a>
-            <a href="{{ item.documentation }} "> Documentation</a>
+
+            <a href="https://{{ site.atlassian_username }}.atlassian.net/{{ item.documentation }}"> 
+                <img class="img-icon" src="/assets/atlassian-icon.png"/>
+                <span>Documentation</span>
+            </a>
         </div>
     </div>
     {% endfor %}

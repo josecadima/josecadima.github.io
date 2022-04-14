@@ -1,8 +1,8 @@
 - name: People microservice
   be-technology: .NET 6.0, C#, ASP.NET Core Web API, Entity Framework
-  fe-technology: ASP.NET MVC
+  fe-technology: ASP.NET Core, Single Page Application, React
   other-technology: SQL Server, Docker, OpenAPI (Swagger), Visual Studio, Postman
-  documentation: /projectpeople.html
+  documentation: wiki/spaces/SK/pages/33048/People+microservice
   description: The people microservice is in charge of managing the personal information like the contact info, addresses, birthday, avatar, etc.
   demo: projectpeople.gif
   repository: speedkt-people-api
@@ -10,15 +10,7 @@
   be-technology: node.js, ReactJS, mongoDB
   fe-technology: 
   other-technology:
-  documentation: /projectknowledge.html
+  documentation: wiki/spaces/SK/pages/33048/Knowledge+microservice
   description: Microservice that is used to manage the knowledge information
   demo: projecttool.gif
   repository: speedkt-knowledge-api
-- name: Tool microservice
-  be-technology: node.js, ReactJS, mongoDB
-  fe-technology: 
-  other-technology:
-  documentation: /projecttool.html
-  description: Microservice that is used to manage the supported built-in tools
-  demo: projecttool.gif
-  repository: speedkt-tool-api
