@@ -1,6 +1,6 @@
 - name: People microservice
   be-technology: .NET 6.0, C#, ASP.NET Core Web API, Entity Framework
-  fe-technology: React, JavaScript
+  fe-technology: React 18, JavaScript, Bootstrap
   other-technology: SQL Server
   tool: Visual Studio 2022, Docker, Postman, OpenAPI (Swagger)
   documentation: wiki/spaces/SK/pages/33048/People+microservice
