@@ -1,16 +1,82 @@
 
+.page-title {
+    @include relative-font-size(2.125);
+
+    @include media-query($on-laptop) {
+        @include relative-font-size(1);
+    }
+}
+
+.project-demo {
+    height: 270px;
+}
+
+.project-demo img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    margin-top: 10px;
+}
+
 .project-card {
     display: block;
+    padding: 10px 0px;
+    border-top: 5px;
+    border-color: black;
+}
+
+.project-heading {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin: 10px 0 30px;
+    color: $grey-color-darkest;
+    border-bottom: 2px $grey-color-darkest solid;
+}
+
+.project-title {
+    background: #ffffff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.project-module-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-module-title {
+    font-weight: 500;
+    @include relative-font-size(1.225);
+
+    @include media-query($on-laptop) {
+        @include relative-font-size(1);
+    }
+}
+
+.project-module-card {
+    position: relative;
+    max-width: 330px;
     background-color: $grey-color-light;
-    padding: 5px 10px;
-    border-radius: 5px; 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
     margin-bottom: $spacing-unit;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
-.project-links {
-    a {
-        margin-right: 30px;
-    }
+.project-module-properties {
+    margin-bottom: 40px;
+}
+
+.project-module-repo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }

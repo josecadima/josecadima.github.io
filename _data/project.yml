@@ -1,20 +1,30 @@
-- name: People microservice
-  be-technology: .NET 6.0, C#, ASP.NET Core Web API, Entity Framework
-  fe-technology: React 18, JavaScript, Bootstrap
-  other-technology: SQL Server
-  tool: Visual Studio 2022, Docker, Postman, OpenAPI (Swagger)
+- projectName: People microservice
+  projectDescription: The people microservice is in charge of managing the personal information like the contact info, addresses, birthday, avatar, etc.
   documentation: wiki/spaces/SK/pages/33048/People+microservice
-  description: The people microservice is in charge of managing the personal information like the contact info, addresses, birthday, avatar, etc.
-  demo: projectpeople.gif
-  repositoryApi: speedkt-people-api
-  repositoryWeb: speedkt-people-web
-- name: Knowledge microservice
-  be-technology: node.js, ReactJS, mongoDB
-  fe-technology: 
-  other-technology:
-  tool:
+  demoUrl: https://speedkt-portfolio.s3.amazonaws.com/speedkt-people-microservice.jpg
+  modules:
+  - moduleName: People API
+    properties:
+      techstack: .NET 6.0, C#, ASP.NET Core Web API, SQL Server, Entity Framework, OpenAPI (Swagger), AWS S3, Auth0, Visual Studio 2022, Postman
+      description: RESTful API implementation with ASP.NET Core
+      repository: speedkt-people-api
+  - moduleName: People Web 
+    properties:
+      techstack: React 18, JavaScript, Bootstrap, Auth0, Visual Studio 2022
+      description: Website implementation with React
+      repository: speedkt-people-web
+- projectName: Knowledge microservice
+  projectDescription: Microservice that is used to manage the knowledge information
   documentation: wiki/spaces/SK/pages/33048/Knowledge+microservice
-  description: Microservice that is used to manage the knowledge information
-  demo: projecttool.gif
-  repositoryApi: speedkt-knowledge-api
-  repositoryWeb: speedkt-knowledge-web
+  demoUrl: test.jpg
+  modules:
+  - moduleName: Knowledge API
+    properties:
+      techstack: node.js, mongoDB, OpenAPI (Swagger), AWS S3, Auth0, Visual Studio Code, Postman
+      description: Restful API implementation with node.js
+      repository: speedkt-knowledge-api
+  - moduleName: Knowledge Web
+    properties:
+      techstack: Angular, JavaScript, Bootstrap, Okta, Visual Studio Code
+      description: Website implementation with Angular
+      repository: speedkt-knowledge-web
